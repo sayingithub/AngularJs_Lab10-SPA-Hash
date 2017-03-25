@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+
+    <!-- load bootstrap and fontawesome via CDN -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <style>
+        html, body
+        {
+            font-size: 1.1em;
+        }
+    </style>
+
+    <!-- load angular via CDN -->
+    <script src="//code.angularjs.org/1.3.0-rc.1/angular.min.js"></script>
+
+    <!-- Included angular messages services -->
+
+    <script src="//code.angularjs.org/1.3.0-rc.1/angular-messages.min.js"></script>
+
+
+
+
+
+</head>
+<body>
+<!-- # is the fragment identifier within the html document-->
+<!-- this # tag provides opportunity to use for other purpose. Whatever string comes after the # tag, returns the same string as HASH value. For example, if you type
+http://localhost:63342/Lab10-SPA-Hash/index.html#bookmark2, then the hashvalue return as bookmark2, even though the bookamrk2 doesn't exists in html document
+http://localhost:63342/Lab10-SPA-Hash/index.html#bookmark3, then the hashvalue return as bookmark3, even though the bookamrk3 doesn't exists in html document
+http://localhost:63342/Lab10-SPA-Hash/index.html#/bookmark/4, then the hashvalue return as /bookmark/4, even though the /bookmark/4 doesn't exists in html document
+-->
+<a href="#bookmark"> Go to Deep Linking Bookmark! </a>
+
+<h3>
+<p>
+Why AngularJS? </br>
+
+HTML is great for declaring static documents, but it falters when we try to use it for declaring dynamic views in web-applications. AngularJS lets you extend HTML vocabulary for your application. The resulting environment is extraordinarily expressive, readable, and quick to develop.
+</p>
+</h3>
+</br>
+
+<h3>
+<p>
+Alternatives</br>
+
+Other frameworks deal with HTML's shortcomings by either abstracting away HTML, CSS, and/or JavaScript or by providing an imperative way for manipulating the DOM. Neither of these address the root problem that HTML was not designed for dynamic views.
+</p>
+</h3>
+</br>
+
+<h3>
+<p>
+Extensibility</br>
+
+AngularJS is a toolset for building the framework most suited to your application development. It is fully extensible and works well with other libraries. Every feature can be modified or replaced to suit your unique development workflow and feature needs. Read on to find out how.
+</p>
+</h3>
+</br>
+
+<h3>
+<p>
+Data Binding</br>
+
+Data-binding is an automatic way of updating the view whenever the model changes, as well as updating the model whenever the view changes. This is awesome because it eliminates DOM manipulation from the list of things you have to worry about.
+</p>
+</h3>
+</br>
+
+<h3>
+<p>
+Controller</br>
+
+Controllers are the behavior behind the DOM elements. AngularJS lets you express the behavior in a clean readable form without the usual boilerplate of updating the DOM, registering callbacks or watching model changes.
+</p>
+</h3>
+</br>
+
+<h3>
+<p>
+Plain JavaScript</br>
+
+Unlike other frameworks, there is no need to inherit from proprietary types in order to wrap the model in accessors methods. Angular models are plain old JavaScript objects. This makes your code easy to test, maintain, reuse, and again free from boilerplate.
+</p>
+</h3>
+</br>
+
+<h3>
+<p>
+
+ <!-- EVEN REMOVING THE BOOKMARK, THE LINK WONT NAVIGATE TO THIS LOCATION, BUT THE HASH VALUE IS GETTING CHANGED
+<strong><a id="bookmark">This is a bookmark for Deep Linking!</a></strong>
+-->
+Deep Linking
+ </br>
+
+A deep link reflects where the user is in the app. This is useful so users can bookmark and email links to locations within the app. Round trip apps get this automatically, but AJAX apps by their nature do not. AngularJS combines the benefits of deep linking with desktop app-like behavior.
+</p>
+</h3>
+</br>
+
+
+<h3>
+<p>
+Form Validation</br>
+
+Client-side form validation is an important part of a great user experience. AngularJS lets you declare the validation rules of the form without having to write JavaScript code. Write less code, go have beer sooner.
+</p>
+</h3>
+</br>
+
+<h3>
+<p>
+Server Communication</br>
+
+AngularJS provides built-in services on top of XHR as well as various other backends using third party libraries. Promises further simplify your code by handling asynchronous return of data. In this example, we use the AngularFire library to wire up a Firebase backend to a simple Angular app.
+</p>
+</h3>
+</br>
+
+
+<h3>
+    <p>
+        Directives</br>
+
+        Directives are a unique and powerful feature available only in Angular. Directives let you invent new HTML syntax, specific to your application.
+    </p>
+</h3>
+</br>
+
+
+
+<h3>
+    <p>
+        Reusable Components</br>
+
+        We use directives to create reusable components. A component allows you to hide complex DOM structure, CSS, and behavior. This lets you focus either on what the application does or how the application looks separately.
+    </p>
+</h3>
+</br>
+
+
+
+<h3>
+    <p>
+        Localization</br>
+
+        An important part of serious apps is localization. Angular's locale aware filters and stemming directives give you building blocks to make your application available in all locales.
+    </p>
+</h3>
+</br>
+
+<h3>
+    <p>
+        Testable</br>
+
+        AngularJS was designed from ground up to be testable. It encourages behavior-view separation, comes pre-bundled with mocks, and takes full advantage of dependency injection. It also comes with end-to-end scenario runner which eliminates test flakiness by understanding the inner workings of AngularJS.
+    </p>
+</h3>
+</br>
+
+
+
+<h3>
+    <p>
+        Injectable</br>
+
+        The dependency injection in AngularJS allows you to declaratively describe how your application is wired. This means that your application needs no main() method which is usually an unmaintainable mess. Dependency injection is also a core to AngularJS. This means that any component which does not fit your needs can easily be replaced.
+    </p>
+</h3>
+</br>
+
+<script src="app-lab10.js"></script>
+
+</body>
+
+
+
+
+
+</html>
